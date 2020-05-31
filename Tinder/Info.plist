@@ -54,6 +54,10 @@
 	</array>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>Allow access to Library</string>
+	<key>NSFileProviderDomainUsageDescription</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow locations</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
