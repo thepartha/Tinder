@@ -18,6 +18,8 @@
 		B289825E24831A0700287703 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B289825C24831A0700287703 /* LaunchScreen.storyboard */; };
 		B289826924831A0700287703 /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289826824831A0700287703 /* TinderTests.swift */; };
 		B289827424831A0700287703 /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B289827324831A0700287703 /* TinderUITests.swift */; };
+		B2FC3AD724848A5800433152 /* MatchesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FC3AD624848A5800433152 /* MatchesViewController.swift */; };
+		B2FC3AD924848D9C00433152 /* MatchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FC3AD824848D9C00433152 /* MatchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		B289826F24831A0700287703 /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B289827324831A0700287703 /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		B289827524831A0700287703 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FC3AD624848A5800433152 /* MatchesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchesViewController.swift; sourceTree = "<group>"; };
+		B2FC3AD824848D9C00433152 /* MatchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 				B289825324831A0500287703 /* SceneDelegate.swift */,
 				B289825524831A0500287703 /* ViewController.swift */,
 				B289825724831A0500287703 /* Main.storyboard */,
+				B2FC3AD624848A5800433152 /* MatchesViewController.swift */,
+				B2FC3AD824848D9C00433152 /* MatchTableViewCell.swift */,
 				B210CBEB24843DBF00ED883D /* UpdateViewController.swift */,
 				B210CBE72484317C00ED883D /* LoginViewController.swift */,
 				B289825A24831A0700287703 /* Assets.xcassets */,
@@ -333,6 +339,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2FC3AD924848D9C00433152 /* MatchTableViewCell.swift in Sources */,
+				B2FC3AD724848A5800433152 /* MatchesViewController.swift in Sources */,
 				B210CBE82484317C00ED883D /* LoginViewController.swift in Sources */,
 				B289825624831A0500287703 /* ViewController.swift in Sources */,
 				B289825224831A0500287703 /* AppDelegate.swift in Sources */,

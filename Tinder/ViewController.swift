@@ -119,6 +119,9 @@ class ViewController: UIViewController {
             query.findObjectsInBackground { (objects, error) in
                 
                 if let users = objects {
+                    
+                    print(users.count)
+                    
                     for object in users {
                         if let user = object as? PFUser {
                             if let imageFile = user["photo"] as? PFFileObject {
